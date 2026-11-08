@@ -6,6 +6,7 @@ Fee changes, country changes and new providers, newest first. Each entry was che
 
 **New**
 
+- Kelviq, a merchant of record for SaaS and AI: 3.5% + 40¢ (2.9% + 40¢ until $5,000 in sales), sellers in 120 countries, no payout fee. Added to the country table and guides.
 - "No company needed?" column for merchant of record platforms. Paddle, Dodo Payments, Gumroad and Freemius state on their own pages that individuals can sell without a registered company.
 - Payout details for each MoR: methods, minimums and schedule.
 - Country guides for [India](countries/india.md), [Pakistan](countries/pakistan.md), [Bangladesh](countries/bangladesh.md), [Nigeria](countries/nigeria.md), [Indonesia](countries/indonesia.md) and [Brazil](countries/brazil.md).

@@ -20,6 +20,7 @@ Brazil is on [Stripe's country list](https://stripe.com/global), so you can sign
 | [Fungies](https://help.fungies.io/getting-paid/global-availability)                     | Yes                | 5% + 50¢   | Daily payouts by default                                |
 | [Lemon Squeezy](https://docs.lemonsqueezy.com/help/getting-started/supported-countries) | PayPal only        | 5% + 50¢   | No bank payouts to Brazil                               |
 | [Polar](https://polar.sh/docs/merchant-of-record/supported-countries)                   | No                 | –          | Not on its payout list                                  |
+| [Kelviq](https://docs.kelviq.com/getstarted/review-process)                             | No                 | –          | Not on its list of 120 countries                        |
 
 ## Selling to customers in Brazil (local gateway)
 

@@ -14,7 +14,7 @@
 - [Can I Sell From My Country](#can-i-sell-from-my-country)
 - [Country Guides](#country-guides)
 - [What a $20 Sale Costs](#what-a-20-sale-costs)
-- [Merchant of Record Platforms](#merchant-of-record-platforms) (10)
+- [Merchant of Record Platforms](#merchant-of-record-platforms) (11)
 - [Global Payment Gateways](#global-payment-gateways) (4)
 - [Local Payment Gateways](#local-payment-gateways) (16)
 - [Receive Your Payouts](#receive-your-payouts) (2)
@@ -49,26 +49,26 @@
 
 Countries where founders most often can't use Stripe. "Yes" means the provider's own country list includes it. Every provider still reviews each seller before approving them.
 
-| Country      | Stripe       | Paddle | Lemon Squeezy | Polar | Creem   | Dodo | Local options                       |
-| ------------ | ------------ | ------ | ------------- | ----- | ------- | ---- | ----------------------------------- |
-| India        | Invite only  | Yes    | Yes           | Yes   | Yes     | Yes  | Razorpay, Cashfree, PayU, Instamojo |
-| Pakistan     | No           | Yes    | Yes           | Yes   | Limited | No   | Safepay                             |
-| Bangladesh   | No           | Yes    | Yes           | Yes   | Limited | No   | SSLCommerz, aamarPay                |
-| Sri Lanka    | No           | Yes    | Yes           | Yes   | Yes     | Yes  | PayHere                             |
-| Nepal        | No           | Yes    | PayPal only   | No    | Limited | Yes  | Khalti                              |
-| Indonesia    | Invite only  | Yes    | Yes           | Yes   | Yes     | Yes  | Xendit                              |
-| Philippines  | No           | Yes    | Yes           | Yes   | Yes     | Yes  | Xendit                              |
-| Vietnam      | No           | Yes    | Yes           | Yes   | Yes     | Yes  | –                                   |
-| Nigeria      | Via Paystack | Yes    | Yes           | Yes   | Yes     | No   | Paystack, Flutterwave               |
-| Kenya        | Via Paystack | Yes    | Yes           | Yes   | Yes     | No   | Paystack, Flutterwave               |
-| Ghana        | Via Paystack | Yes    | Yes           | Yes   | No      | Yes  | Paystack, Flutterwave               |
-| South Africa | Via Paystack | Yes    | Yes           | Yes   | Yes     | Yes  | Paystack, Flutterwave               |
-| Egypt        | No           | Yes    | Yes           | Yes   | Yes     | No   | Paymob                              |
-| Turkey       | No           | Yes    | Yes           | Yes   | Yes     | Yes  | iyzico                              |
-| UAE          | Yes          | Yes    | Yes           | Yes   | Yes     | Yes  | Telr                                |
-| Brazil       | Yes          | Yes    | PayPal only   | No    | Yes     | Yes  | Mercado Pago                        |
-| Argentina    | No           | Yes    | Yes           | Yes   | Yes     | Yes  | Mercado Pago                        |
-| Mexico       | Yes          | Yes    | Yes           | Yes   | Yes     | Yes  | Mercado Pago                        |
+| Country      | Stripe       | Paddle | Lemon Squeezy | Polar | Creem   | Dodo | Kelviq | Local options                       |
+| ------------ | ------------ | ------ | ------------- | ----- | ------- | ---- | ------ | ----------------------------------- |
+| India        | Invite only  | Yes    | Yes           | Yes   | Yes     | Yes  | Yes    | Razorpay, Cashfree, PayU, Instamojo |
+| Pakistan     | No           | Yes    | Yes           | Yes   | Limited | No   | Yes    | Safepay                             |
+| Bangladesh   | No           | Yes    | Yes           | Yes   | Limited | No   | Yes    | SSLCommerz, aamarPay                |
+| Sri Lanka    | No           | Yes    | Yes           | Yes   | Yes     | Yes  | Yes    | PayHere                             |
+| Nepal        | No           | Yes    | PayPal only   | No    | Limited | Yes  | No     | Khalti                              |
+| Indonesia    | Invite only  | Yes    | Yes           | Yes   | Yes     | Yes  | Yes    | Xendit                              |
+| Philippines  | No           | Yes    | Yes           | Yes   | Yes     | Yes  | Yes    | Xendit                              |
+| Vietnam      | No           | Yes    | Yes           | Yes   | Yes     | Yes  | Yes    | –                                   |
+| Nigeria      | Via Paystack | Yes    | Yes           | Yes   | Yes     | No   | Yes    | Paystack, Flutterwave               |
+| Kenya        | Via Paystack | Yes    | Yes           | Yes   | Yes     | No   | Yes    | Paystack, Flutterwave               |
+| Ghana        | Via Paystack | Yes    | Yes           | Yes   | No      | Yes  | Yes    | Paystack, Flutterwave               |
+| South Africa | Via Paystack | Yes    | Yes           | Yes   | Yes     | Yes  | Yes    | Paystack, Flutterwave               |
+| Egypt        | No           | Yes    | Yes           | Yes   | Yes     | No   | Yes    | Paymob                              |
+| Turkey       | No           | Yes    | Yes           | Yes   | Yes     | Yes  | Yes    | iyzico                              |
+| UAE          | Yes          | Yes    | Yes           | Yes   | Yes     | Yes  | Yes    | Telr                                |
+| Brazil       | Yes          | Yes    | PayPal only   | No    | Yes     | Yes  | No     | Mercado Pago                        |
+| Argentina    | No           | Yes    | Yes           | Yes   | Yes     | Yes  | Yes    | Mercado Pago                        |
+| Mexico       | Yes          | Yes    | Yes           | Yes   | Yes     | Yes  | Yes    | Mercado Pago                        |
 
 | Column        | What it means                                                                                                                                         |
 | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -78,6 +78,7 @@ Countries where founders most often can't use Stripe. "Yes" means the provider's
 | Polar         | Pays out through Stripe Connect Express to the countries it lists.                                                                                    |
 | Creem         | "Limited" means Creem lists the country with "partner restrictions".                                                                                  |
 | Dodo          | Some countries marked "No" are kept only for existing merchants, not new sign-ups.                                                                    |
+| Kelviq        | Supports businesses registered in the 120 countries it lists. Payouts go through Stripe.                                                              |
 
 Each provider's country list is linked in the Merchant of Record Platforms table below.
 
@@ -88,8 +89,8 @@ Step-by-step options for founders in each country: what works, what it costs, an
 | Country                               | Stripe       | Best place to start                           |
 | ------------------------------------- | ------------ | --------------------------------------------- |
 | [India](countries/india.md)           | Invite only  | An MoR, or Razorpay, Cashfree or PayU at home |
-| [Pakistan](countries/pakistan.md)     | No           | Paddle, Lemon Squeezy or Polar                |
-| [Bangladesh](countries/bangladesh.md) | No           | Paddle, Lemon Squeezy or Polar                |
+| [Pakistan](countries/pakistan.md)     | No           | Paddle, Lemon Squeezy, Polar or Kelviq        |
+| [Bangladesh](countries/bangladesh.md) | No           | Paddle, Lemon Squeezy, Polar or Kelviq        |
 | [Nigeria](countries/nigeria.md)       | Via Paystack | Paystack, or an MoR for worldwide sales       |
 | [Indonesia](countries/indonesia.md)   | Invite only  | Any MoR on this list, or Xendit at home       |
 | [Brazil](countries/brazil.md)         | Yes          | Stripe, an MoR, or Mercado Pago with Pix      |
@@ -100,16 +101,17 @@ Want a guide for your country? Open an issue (see [Contributing](#contributing))
 
 Headline fee on a $20 card payment from a US customer, at each provider's standard rate. This leaves out payout, currency conversion and dispute fees.
 
-| Provider                    | Fee on $20 | Handles sales tax and VAT   |
-| --------------------------- | ---------- | --------------------------- |
-| Stripe (2.9% + 30¢)         | $0.88      | No (Stripe Tax costs extra) |
-| Creem (3.9% + 40¢)          | $1.18      | Yes                         |
-| Dodo Payments (4% + 40¢)    | $1.20      | Yes                         |
-| Paddle (5% + 50¢)           | $1.50      | Yes                         |
-| Lemon Squeezy (5% + 50¢)    | $1.50      | Yes                         |
-| Polar (5% + 50¢, free plan) | $1.50      | Yes                         |
-| Fungies (5% + 50¢)          | $1.50      | Yes                         |
-| Gumroad (10% + 50¢)         | $2.50      | Yes                         |
+| Provider                                             | Fee on $20             | Handles sales tax and VAT   |
+| ---------------------------------------------------- | ---------------------- | --------------------------- |
+| Stripe (2.9% + 30¢)                                  | $0.88                  | No (Stripe Tax costs extra) |
+| Kelviq (3.5% + 40¢; 2.9% + 40¢ on your first $5,000) | $1.10 ($0.98 at first) | Yes                         |
+| Creem (3.9% + 40¢)                                   | $1.18                  | Yes                         |
+| Dodo Payments (4% + 40¢)                             | $1.20                  | Yes                         |
+| Paddle (5% + 50¢)                                    | $1.50                  | Yes                         |
+| Lemon Squeezy (5% + 50¢)                             | $1.50                  | Yes                         |
+| Polar (5% + 50¢, free plan)                          | $1.50                  | Yes                         |
+| Fungies (5% + 50¢)                                   | $1.50                  | Yes                         |
+| Gumroad (10% + 50¢)                                  | $2.50                  | Yes                         |
 
 ---
 
@@ -123,6 +125,7 @@ They sell your product on your behalf and handle sales tax, VAT, fraud and charg
 | [Lemon Squeezy](https://www.lemonsqueezy.com/pricing)                        | 5% + 50¢                                     | Small extra fees on some payments, e.g. outside the US        | Bank payouts in [79 countries](https://docs.lemonsqueezy.com/help/getting-started/supported-countries), PayPal in 200+                                     | Not stated; needs a bank or verified PayPal account                                                                                                  | Nov 2026 |
 | [Polar](https://polar.sh/resources/pricing)                                  | 5% + 50¢ free; from 3.4% + 30¢ on paid plans | +1.5% non-US cards; $15 per dispute                           | [118 countries](https://polar.sh/docs/merchant-of-record/supported-countries)                                                                              | Not stated; [owner ID and selfie](https://polar.sh/docs/merchant-of-record/account-reviews)                                                          | Nov 2026 |
 | [Creem](https://www.creem.io/pricing)                                        | 3.9% + 40¢                                   | Payout fee: 7 USD/EUR or 1%, whichever is higher              | [87 countries](https://docs.creem.io/merchant-of-record/supported-countries)                                                                               | Not stated in docs                                                                                                                                   | Nov 2026 |
+| [Kelviq](https://kelviq.com/pricing/)                                        | 3.5% + 40¢; 2.9% + 40¢ until $5,000 in sales | +1.5% non-US cards; +0.7% subscriptions; $15 per dispute      | [120 countries](https://docs.kelviq.com/getstarted/review-process)                                                                                         | Not stated in docs                                                                                                                                   | Nov 2026 |
 | [Dodo Payments](https://dodopayments.com/pricing)                            | 4% + 40¢; domestic India 4% + 15¢            | +1.5% international; +0.5% subscriptions; +3% PayPal and BNPL | [177 countries](https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories)                                                            | Yes: [Choose "Individual" at verification](https://docs.dodopayments.com/miscellaneous/verification-process)                                         | Nov 2026 |
 | [Stripe Managed Payments](https://docs.stripe.com/payments/managed-payments) | Not published in the docs                    | Digital products only; Checkout and Payment Links only        | [37 locations](https://docs.stripe.com/payments/managed-payments/eligibility): US, Canada, EU/EEA, UK, Switzerland, Australia, Hong Kong, Japan, Singapore | Reviewed case by case                                                                                                                                | Nov 2026 |
 | [Gumroad](https://gumroad.com/pricing)                                       | 10% + 50¢                                    | 30% on sales through its Discover marketplace                 | Not listed on pricing page                                                                                                                                 | Yes: [Choose "Individual" for payouts](https://gumroad.com/help/article/260-your-payout-settings-page)                                               | Nov 2026 |
@@ -138,6 +141,7 @@ They sell your product on your behalf and handle sales tax, VAT, fraud and charg
 | Lemon Squeezy | Bank wire or PayPal                                 | $50               | Created on the 1st and 15th, after a 13-day hold; small fee on some payouts |
 | Polar         | Stripe Connect Express                              | Not stated        | Stripe fees: $2/mo while active, 0.25% + 25¢ per payout                     |
 | Creem         | Bank transfer, USDC, Alipay (China only); no PayPal | $50               | 1st and 15th; 7 USD/EUR or 1%, whichever is higher                          |
+| Kelviq        | Bank account or eligible debit card, via Stripe     | Not stated        | Rolling 7-day schedule; no payout fee                                       |
 | Dodo Payments | Bank, SWIFT wire                                    | Not stated        | $5 on payouts under $1,000; $25 for SWIFT outside the US                    |
 | Gumroad       | Local bank or PayPal, depending on country          | Not stated        | Not stated on pricing page                                                  |
 | Fungies       | Your connected payout account                       | Varies by country | Daily by default; weekly, monthly or manual                                 |

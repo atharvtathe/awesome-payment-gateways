@@ -2,7 +2,7 @@
 
 [← Back to Awesome Payment Gateways](../README.md)
 
-**Quick answer:** Stripe isn't available in Bangladesh. To sell to customers worldwide, use a merchant of record (MoR) that pays out to Bangladesh: Paddle, Lemon Squeezy or Polar. To sell to customers in Bangladesh (cards, bKash, Nagad, Rocket), use SSLCommerz or aamarPay.
+**Quick answer:** Stripe isn't available in Bangladesh. To sell to customers worldwide, use a merchant of record (MoR) that pays out to Bangladesh: Paddle, Lemon Squeezy, Polar or Kelviq. To sell to customers in Bangladesh (cards, bKash, Nagad, Rocket), use SSLCommerz or aamarPay.
 
 _Last checked: November 2026. Confirm on each provider's page before you sign up._
 
@@ -12,14 +12,15 @@ Bangladesh isn't on [Stripe's country list](https://stripe.com/global). The comm
 
 ## Selling to customers worldwide (MoRs)
 
-| Provider                                                                                        | Pays out to Bangladesh        | Fee                  | Notes                                                   |
-| ----------------------------------------------------------------------------------------------- | ----------------------------- | -------------------- | ------------------------------------------------------- |
-| [Paddle](https://www.paddle.com/pricing)                                                        | Yes                           | 5% + 50¢             | Business check skipped for individuals and sole traders |
-| [Lemon Squeezy](https://www.lemonsqueezy.com/pricing)                                           | Yes: Bank payouts             | 5% + 50¢             | $50 minimum payout                                      |
-| [Polar](https://polar.sh/resources/pricing)                                                     | Yes                           | 5% + 50¢ (free plan) | Payouts through Stripe Connect Express                  |
-| [Creem](https://docs.creem.io/merchant-of-record/supported-countries)                           | Limited: Partner restrictions | 3.9% + 40¢           | Listed, with restrictions from its payout partner       |
-| [Dodo Payments](https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories) | No                            | –                    | Kept only for existing merchants, not new sign-ups      |
-| [Fungies](https://help.fungies.io/getting-paid/global-availability)                             | No                            | –                    | Listed only under cross-border restrictions             |
+| Provider                                                                                        | Pays out to Bangladesh        | Fee                                  | Notes                                                   |
+| ----------------------------------------------------------------------------------------------- | ----------------------------- | ------------------------------------ | ------------------------------------------------------- |
+| [Paddle](https://www.paddle.com/pricing)                                                        | Yes                           | 5% + 50¢                             | Business check skipped for individuals and sole traders |
+| [Lemon Squeezy](https://www.lemonsqueezy.com/pricing)                                           | Yes: Bank payouts             | 5% + 50¢                             | $50 minimum payout                                      |
+| [Polar](https://polar.sh/resources/pricing)                                                     | Yes                           | 5% + 50¢ (free plan)                 | Payouts through Stripe Connect Express                  |
+| [Creem](https://docs.creem.io/merchant-of-record/supported-countries)                           | Limited: Partner restrictions | 3.9% + 40¢                           | Listed, with restrictions from its payout partner       |
+| [Kelviq](https://kelviq.com/pricing/)                                                           | Yes                           | 3.5% + 40¢ (2.9% + 40¢ until $5,000) | +1.5% non-US cards; no payout fee; payouts via Stripe   |
+| [Dodo Payments](https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories) | No                            | –                                    | Kept only for existing merchants, not new sign-ups      |
+| [Fungies](https://help.fungies.io/getting-paid/global-availability)                             | No                            | –                                    | Listed only under cross-border restrictions             |
 
 ## Selling to customers in Bangladesh (local gateways)
 
