@@ -1,0 +1,27 @@
+name: Report outdated info
+description: A fee, country or link in the list is wrong or out of date
+title: "Update: <provider name>"
+labels: ["outdated"]
+body:
+  - type: input
+    id: provider
+    attributes:
+      label: Provider name
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What changed?
+      description: What the list says now, and what the provider's page says.
+    validations:
+      required: true
+  - type: input
+    id: country
+    attributes:
+      label: Your country (if this is about country support)
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      description: The provider's page where you saw the current info.

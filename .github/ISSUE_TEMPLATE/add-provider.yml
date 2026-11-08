@@ -1,0 +1,54 @@
+name: Suggest a provider
+description: Suggest a payment provider founders can use
+title: "Add: <provider name>"
+labels: ["new provider"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Check the [rules](../blob/main/CONTRIBUTING.md#what-qualifies) first. Crypto-only processors, card terminals and enterprise-only providers are not accepted.
+  - type: input
+    id: name
+    attributes:
+      label: Provider name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Pricing or fees page URL
+      placeholder: https://example.com/pricing
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - Merchant of Record (handles sales tax / VAT)
+        - Global payment gateway
+        - Local payment gateway
+        - US company formation
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: fee
+    attributes:
+      label: Standard fee
+      placeholder: 2.9% + 30¢, or "On request"
+  - type: input
+    id: countries
+    attributes:
+      label: Where can sellers be based? (link to the provider's country list if possible)
+  - type: input
+    id: payouts
+    attributes:
+      label: Payout methods
+      placeholder: Bank transfer, PayPal, Wise...
+  - type: checkboxes
+    id: owner
+    attributes:
+      label: Disclosure
+      options:
+        - label: I work for this provider
