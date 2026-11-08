@@ -4,7 +4,7 @@ Thanks for helping founders get paid. Three kinds of contributions are welcome:
 
 1. **Add a provider**: an MoR, gateway or local gateway that indie founders can sign up for.
 2. **Update an entry** whose fees or supported countries have changed.
-3. **Fix the country table**: a ✅ or ❌ that is wrong for your country. Founders who actually live there are the best source for this.
+3. **Fix the country table**: a "Yes" or "No" that is wrong for your country. Founders who actually live there are the best source for this.
 
 Don't want to open a pull request? [Open an issue](../../issues/new/choose) and fill in the form instead.
 

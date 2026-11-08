@@ -16,12 +16,12 @@ If you do get access, Stripe India charges 2% on cards issued in India, and 3% o
 
 | Provider                                                            | Pays out to India   | Fee                                 | Notes                                                          |
 | ------------------------------------------------------------------- | ------------------- | ----------------------------------- | -------------------------------------------------------------- |
-| [Paddle](https://www.paddle.com/pricing)                            | Yes:                | 5% + 50¢                            | Business check skipped for individuals and sole traders        |
+| [Paddle](https://www.paddle.com/pricing)                            | Yes                 | 5% + 50¢                            | Business check skipped for individuals and sole traders        |
 | [Lemon Squeezy](https://www.lemonsqueezy.com/pricing)               | Yes: Bank or PayPal | 5% + 50¢                            | $50 minimum payout                                             |
-| [Polar](https://polar.sh/resources/pricing)                         | Yes:                | 5% + 50¢ (free plan)                | +1.5% on non-US cards; payouts through Stripe Connect Express  |
-| [Creem](https://www.creem.io/pricing)                               | Yes:                | 3.9% + 40¢                          | Payout fee: 7 USD or 1%, whichever is higher                   |
-| [Dodo Payments](https://dodopayments.com/pricing)                   | Yes:                | 4% + 40¢; Indian customers 4% + 15¢ | Accepts Indian cards and UPI in INR; "Individual" sign-up path |
-| [Fungies](https://help.fungies.io/getting-paid/global-availability) | Yes:                | 5% + 50¢                            | Daily payouts by default                                       |
+| [Polar](https://polar.sh/resources/pricing)                         | Yes                 | 5% + 50¢ (free plan)                | +1.5% on non-US cards; payouts through Stripe Connect Express  |
+| [Creem](https://www.creem.io/pricing)                               | Yes                 | 3.9% + 40¢                          | Payout fee: 7 USD or 1%, whichever is higher                   |
+| [Dodo Payments](https://dodopayments.com/pricing)                   | Yes                 | 4% + 40¢; Indian customers 4% + 15¢ | Accepts Indian cards and UPI in INR; "Individual" sign-up path |
+| [Fungies](https://help.fungies.io/getting-paid/global-availability) | Yes                 | 5% + 50¢                            | Daily payouts by default                                       |
 | [Gumroad](https://gumroad.com/pricing)                              | Bank or PayPal      | 10% + 50¢                           | Best for simple digital products, not SaaS                     |
 
 ## Selling to customers in India (local gateways)

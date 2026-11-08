@@ -14,12 +14,12 @@ _Last checked: November 2026. Confirm on each provider's page before you sign up
 
 | Provider                                                            | Pays out to Indonesia | Fee                  | Notes                                                   |
 | ------------------------------------------------------------------- | --------------------- | -------------------- | ------------------------------------------------------- |
-| [Paddle](https://www.paddle.com/pricing)                            | Yes:                  | 5% + 50¢             | Business check skipped for individuals and sole traders |
+| [Paddle](https://www.paddle.com/pricing)                            | Yes                   | 5% + 50¢             | Business check skipped for individuals and sole traders |
 | [Lemon Squeezy](https://www.lemonsqueezy.com/pricing)               | Yes: Bank payouts     | 5% + 50¢             | $50 minimum payout                                      |
-| [Polar](https://polar.sh/resources/pricing)                         | Yes:                  | 5% + 50¢ (free plan) | Payouts through Stripe Connect Express                  |
-| [Creem](https://www.creem.io/pricing)                               | Yes:                  | 3.9% + 40¢           | Payout fee: 7 USD or 1%, whichever is higher            |
-| [Dodo Payments](https://dodopayments.com/pricing)                   | Yes:                  | 4% + 40¢             | "Individual" sign-up path                               |
-| [Fungies](https://help.fungies.io/getting-paid/global-availability) | Yes:                  | 5% + 50¢             | Daily payouts by default                                |
+| [Polar](https://polar.sh/resources/pricing)                         | Yes                   | 5% + 50¢ (free plan) | Payouts through Stripe Connect Express                  |
+| [Creem](https://www.creem.io/pricing)                               | Yes                   | 3.9% + 40¢           | Payout fee: 7 USD or 1%, whichever is higher            |
+| [Dodo Payments](https://dodopayments.com/pricing)                   | Yes                   | 4% + 40¢             | "Individual" sign-up path                               |
+| [Fungies](https://help.fungies.io/getting-paid/global-availability) | Yes                   | 5% + 50¢             | Daily payouts by default                                |
 
 ## Selling to customers in Indonesia (local gateway)
 
