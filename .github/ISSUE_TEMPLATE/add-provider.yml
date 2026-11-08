@@ -41,6 +41,14 @@ body:
     id: countries
     attributes:
       label: Where can sellers be based? (link to the provider's country list if possible)
+  - type: dropdown
+    id: individual
+    attributes:
+      label: Can individuals sign up without a registered company?
+      options:
+        - "Yes, the provider's page says so"
+        - "No, a company is required"
+        - Not sure
   - type: input
     id: payouts
     attributes:

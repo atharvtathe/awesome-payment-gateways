@@ -2,7 +2,7 @@ name: Check links
 
 on:
   pull_request:
-    paths: ["README.md"]
+    paths: ["README.md", "countries/**"]
   schedule:
     - cron: "0 6 * * 1" # Mondays 06:00 UTC
   workflow_dispatch:
@@ -27,7 +27,7 @@ jobs:
             --max-retries 3
             --timeout 30
             --accept 200..=299,403,429,999
-            README.md
+            README.md countries/*.md
           fail: ${{ github.event_name == 'pull_request' }}
 
       - name: Open an issue on scheduled failures
