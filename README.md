@@ -17,6 +17,8 @@
 - [Regional Gateways](#regional-gateways) (16)
 - [Payment Methods Buyers Can Use](#payment-methods-buyers-can-use)
 - [Disputes and Refunds](#disputes-and-refunds)
+- [What You Can Sell](#what-you-can-sell)
+- [Reviews and Payout Holds](#reviews-and-payout-holds)
 - [Receive Your Payouts](#receive-your-payouts) (4)
 - [Can't Use Stripe Where You Live: Open a US Company](#cant-use-stripe-where-you-live-open-a-us-company) (5)
 
@@ -88,12 +90,12 @@ They sell your product on your behalf and handle sales tax, VAT, fraud and charg
 
 | Provider      | Payout methods                                                                                          | Minimum              | Schedule and payout fees                                                                     |
 | ------------- | ------------------------------------------------------------------------------------------------------- | -------------------- | -------------------------------------------------------------------------------------------- |
-| Paddle        | Not stated on pricing page                                                                              | Not stated           | Not stated                                                                                   |
+| Paddle        | Wire or Payoneer                                                                                        | $100                 | Monthly: created on the 1st, sent by the 15th; $15 SWIFT fee in some countries               |
 | Lemon Squeezy | Bank wire or PayPal                                                                                     | $50                  | Created on the 1st and 15th, after a 13-day hold; non-US bank 1%, non-US PayPal 3% (max $30) |
 | Polar         | Stripe Connect Express                                                                                  | Not stated           | Stripe fees: $2/mo while active, 0.25% + 25¢ per payout                                      |
 | Creem         | Bank transfer, USDC, Alipay (China only); no PayPal                                                     | $50                  | 1st and 15th; 7 USD/EUR or 1%, whichever is higher                                           |
 | Kelviq        | Bank account or eligible debit card, via Stripe                                                         | Not stated           | Rolling 7-day schedule; no payout fee                                                        |
-| Dodo Payments | Bank, SWIFT wire                                                                                        | Not stated           | $5 on payouts under $1,000; $25 for SWIFT outside the US                                     |
+| Dodo Payments | Local bank transfer, SWIFT wire or Payoneer                                                             | $50 (default $100)   | Twice a month by default; $5 on payouts under $1,000; $25 for SWIFT outside the US           |
 | Gumroad       | Local bank or PayPal, depending on country                                                              | Not stated           | Not stated on pricing page                                                                   |
 | Fungies       | Your connected payout account                                                                           | Varies by country    | Daily by default; weekly, monthly or manual                                                  |
 | Freemius      | PayPal, Payoneer, Wise or wire                                                                          | $100                 | Monthly                                                                                      |
@@ -168,6 +170,39 @@ What a chargeback or refund costs you. Fees are per dispute and are usually char
 | Dodo Payments | $30                                                     | $1 per refund                                              | Pricing page                                                                                  |
 
 "Pricing page" means the provider's pricing link in the tables above.
+
+## What You Can Sell
+
+Getting rejected or closed for the wrong product type is the most common way founders lose a payment account. This is what each provider's own policy says. "Review" means it is decided case by case.
+
+| Provider      | AI products                                                       | Services and coaching                                 | Courses and ebooks                             | Crypto and NFTs                                        | Physical goods                                 | Policy                                                                                                     |
+| ------------- | ----------------------------------------------------------------- | ----------------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| Paddle        | Review; no deepfakes, face swaps or voice impersonation           | Only tied to software; no pure consulting or coaching | Only courses you created                       | No exchanges or trading platforms                      | No                                             | [Paddle policy](https://www.paddle.com/help/start/intro-to-paddle/what-am-i-not-allowed-to-sell-on-paddle) |
+| Lemon Squeezy | Yes as software; no NSFW chatbots                                 | No                                                    | Yes                                            | No                                                     | No                                             | [Lemon Squeezy policy](https://docs.lemonsqueezy.com/help/getting-started/prohibited-products)             |
+| Polar         | Review; no voice cloning or NSFW output                           | No human services                                     | Yes; ebooks get a closer review                | No                                                     | No                                             | [Polar policy](https://polar.sh/docs/merchant-of-record/acceptable-use)                                    |
+| Creem         | Review for generative AI; no deepfakes or companion chatbots      | Review                                                | Ebooks yes; trading courses restricted         | No                                                     | No                                             | [Creem policy](https://docs.creem.io/merchant-of-record/account-reviews)                                   |
+| Kelviq        | Yes, "a core use case"                                            | Only sold with a software product                     | Yes                                            | No                                                     | No                                             | Review process page                                                                                        |
+| Dodo Payments | Yes; content generators need review                               | No custom work; productised services need review      | Ebooks need review; no wealth-building courses | No                                                     | No                                             | [Dodo policy](https://docs.dodopayments.com/miscellaneous/merchant-acceptance)                             |
+| Gumroad       | No: access to AI tools, chatbots or generation services is barred | No consulting firms                                   | Yes                                            | No                                                     | Some categories barred (food, jewelry, beauty) | [Gumroad policy](https://gumroad.com/prohibited)                                                           |
+| Stripe        | Yes; no AI-generated adult content                                | Yes                                                   | Yes; no "get rich quick" schemes               | Exchanges and wallets need approval; no mining or ICOs | Yes                                            | [Stripe policy](https://stripe.com/legal/restricted-businesses)                                            |
+
+All eight bar adult content. Every merchant of record here also bars gambling, marketplaces that sell other people's products, and donations where nothing is delivered. VPNs are reviewed case by case at Paddle and Polar and barred at Creem and Dodo Payments.
+
+## Reviews and Payout Holds
+
+How long approval takes, when the money reaches you, and when it can be held back.
+
+| Provider      | Account review                                                        | When you get paid                                                               | Holds and reserves                                                         | Source                                                                                   |
+| ------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Stripe        | Not stated                                                            | First payout 7–14 days after your first live payment; then 2 business days (US) | Not stated on the payouts page                                             | [Stripe payouts](https://docs.stripe.com/payouts)                                        |
+| Paddle        | Not stated                                                            | Monthly: created on the 1st, sent by the 15th; no on-demand withdrawals         | None mentioned                                                             | [Paddle payouts](https://www.paddle.com/help/manage/get-paid/when-and-how-do-i-get-paid) |
+| Lemon Squeezy | Not stated                                                            | Created on the 1st and 15th, paid on the 14th and 28th                          | Net sales held for 13 days                                                 | [Lemon Squeezy payouts](https://docs.lemonsqueezy.com/help/getting-started/getting-paid) |
+| Polar         | Up to 14 days, before your first payout; repeated at sales thresholds | On request, after review                                                        | Payouts held during reviews; can be held for the 120-day chargeback window | Account reviews page                                                                     |
+| Creem         | 1–2 working days; up to 3 at peak                                     | 1st and 15th                                                                    | None mentioned                                                             | Policy page                                                                              |
+| Kelviq        | Most within 24 hours                                                  | Rolling 7-day schedule                                                          | Restricted businesses may get a reserve                                    | Review process page                                                                      |
+| Dodo Payments | Not stated                                                            | Twice a month by default; weekly on request                                     | Can hold back a share of payments as a reserve                             | [Dodo payouts](https://docs.dodopayments.com/features/payouts/payout-structure)          |
+
+Pages named without a link are already linked in the tables above.
 
 ## Receive Your Payouts
 

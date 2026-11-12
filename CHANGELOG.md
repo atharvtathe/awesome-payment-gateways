@@ -18,6 +18,9 @@ Fee changes, country changes and new providers, newest first. Each entry was che
 - Disputes and Refunds: dispute and refund fees for Stripe, Square, Paddle, Polar, Kelviq, Creem and Dodo Payments.
 - Cleverbridge (merchant of record, pricing on request), Revolut Business (gateway, 1% + £0.20 on UK consumer cards) and Grey (USD, GBP and EUR accounts).
 - US bank accounts for a US company: Mercury and Relay.
+- What You Can Sell: AI products, services, courses, crypto and physical goods under each provider's policy, for seven merchant of record platforms and Stripe.
+- Reviews and Payout Holds: account review time, payout timing, holds and reserves for seven providers.
+- Paddle's payouts (wire or Payoneer, $100 minimum, monthly) and Dodo Payments' payout minimum and schedule.
 - Lemon Squeezy's surcharges (+1.5% international, +1.5% PayPal, +0.5% subscriptions) and payout fees.
 
 - Kelviq, a merchant of record for SaaS and AI: 3.5% + 40¢ (2.9% + 40¢ until $5,000 in sales), sellers in 120 countries, no payout fee. Added to the country table and guides (since removed).

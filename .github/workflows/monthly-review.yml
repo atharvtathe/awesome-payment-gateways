@@ -26,6 +26,7 @@ jobs:
           - [ ] Merchant of Record Platforms: fees, sell-from countries, payouts
           - [ ] Payment Gateways and Regional Gateways
           - [ ] Payment Methods Buyers Can Use, and Disputes and Refunds
+          - [ ] What You Can Sell, and Reviews and Payout Holds
           - [ ] Receive Your Payouts and US company services
           - [ ] Update **Verified** on every row you checked
           - [ ] Add anything that changed to CHANGELOG.md
