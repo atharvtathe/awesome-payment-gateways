@@ -19,7 +19,6 @@
 - [Disputes and Refunds](#disputes-and-refunds)
 - [Receive Your Payouts](#receive-your-payouts) (4)
 - [Can't Use Stripe Where You Live: Open a US Company](#cant-use-stripe-where-you-live-open-a-us-company) (5)
-- [Related](#related)
 
 **How to read the tables:** _Fee_ is the standard published rate for a card payment. _Sell from_ means where you, the seller, can be based and get paid, which is different from where your customers can be. Always check your own country against the linked list. _Verified_ is the month the entry was last checked against the provider's own pages.
 
@@ -197,12 +196,6 @@ A US company can open a Stripe account no matter where you live. It also adds US
 | -------------------------------------- | --------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | -------- |
 | [Mercury](https://mercury.com/pricing) | $0                                | Domestic and USD international wires $0; 1% conversion on non-USD wires | US-registered companies; [founders don't need to be US residents](https://mercury.com/faq), with some countries excluded | Nov 2026 |
 | [Relay](https://relayfi.com/pricing)   | $0 (Starter); Grow $30; Scale $90 | Wire fees not shown in the plan table                                   | Not stated on pricing page                                                                                               | Nov 2026 |
-
----
-
-## Related
-
-- [Awesome Ad Spots](https://github.com/atharvtathe/awesome-ad-spots) - Websites that sell ad spots directly, for when you have a way to get paid and need customers.
 
 ---
 
