@@ -14,11 +14,11 @@
 - [What a $20 Sale Costs](#what-a-20-sale-costs)
 - [Merchant of Record Platforms](#merchant-of-record-platforms) (14)
 - [Payment Gateways](#payment-gateways) (8)
-- [Regional Gateways](#regional-gateways) (16)
-- [Payment Methods Buyers Can Use](#payment-methods-buyers-can-use)
-- [Disputes and Refunds](#disputes-and-refunds)
 - [What You Can Sell](#what-you-can-sell)
 - [Reviews and Payout Holds](#reviews-and-payout-holds)
+- [Disputes and Refunds](#disputes-and-refunds)
+- [Payment Methods Buyers Can Use](#payment-methods-buyers-can-use)
+- [Regional Gateways](#regional-gateways) (16)
 - [Receive Your Payouts](#receive-your-payouts) (4)
 - [Can't Use Stripe Where You Live: Open a US Company](#cant-use-stripe-where-you-live-open-a-us-company) (5)
 
@@ -45,6 +45,7 @@
 | Stripe doesn't work in your country              | An MoR that pays out to your country. The fastest way to sell worldwide.                        |
 | Most customers pay with local methods            | A regional gateway for UPI, Pix, mobile money and similar.                                      |
 | You don't want to deal with sales tax or VAT     | An MoR, wherever you are based.                                                                 |
+| You sell an AI product, a service or a course    | Check the What You Can Sell table before you integrate. Policies differ a lot.                  |
 | You need Stripe anyway (investors, marketplaces) | A US company (last section of this list).                                                       |
 
 ## What a $20 Sale Costs
@@ -97,7 +98,7 @@ They sell your product on your behalf and handle sales tax, VAT, fraud and charg
 | Kelviq        | Bank account or eligible debit card, via Stripe                                                         | Not stated           | Rolling 7-day schedule; no payout fee                                                        |
 | Dodo Payments | Local bank transfer, SWIFT wire or Payoneer                                                             | $50 (default $100)   | Twice a month by default; $5 on payouts under $1,000; $25 for SWIFT outside the US           |
 | Gumroad       | Local bank or PayPal, depending on country                                                              | Not stated           | Not stated on pricing page                                                                   |
-| Fungies       | Your connected payout account                                                                           | Varies by country    | Daily by default; weekly, monthly or manual                                                  |
+| Fungies       | Your connected payout account                                                                           | None                 | Daily by default; weekly, monthly or manual; no payout fee                                   |
 | Freemius      | PayPal, Payoneer, Wise or wire                                                                          | $100                 | Monthly                                                                                      |
 | 2Checkout     | [Wire, PayPal or Payoneer prepaid card](https://docs.2checkout.com/get-started/getting-started/payouts) | $50 (2Monetize $100) | Weekly (2Monetize monthly); wire $15, PayPal and Payoneer no 2Checkout fee                   |
 
@@ -107,69 +108,20 @@ They sell your product on your behalf and handle sales tax, VAT, fraud and charg
 
 You are the seller and handle sales tax yourself.
 
-| Provider                                                                      | Fee                                                 | Extra fees                                                                           | Sell from                                                                                                                                        | Verified |
-| ----------------------------------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------- |
-| [Stripe](https://stripe.com/pricing)                                          | 2.9% + 30¢ (US cards)                               | +1.5% international cards; +1% currency conversion; Billing 0.7% of volume           | [51 countries](https://stripe.com/global); a few are invite only                                                                                 | Nov 2026 |
-| [PayPal](https://www.paypal.com/us/business/paypal-business-fees)             | PayPal Checkout 3.49% + 49¢; cards 2.99% + 49¢ (US) | +1.5% international; 3–4% currency conversion                                        | Depends on your country's PayPal account type                                                                                                    | Nov 2026 |
-| [Braintree](https://www.paypal.com/us/enterprise/paypal-braintree-fees)       | 2.89% + 29¢ (US cards and wallets)                  | +1% cards issued outside the US; +1% non-USD presentment                             | US rates shown; other countries need PayPal approval                                                                                             | Nov 2026 |
-| [Mollie](https://www.mollie.com/pricing)                                      | 1.8% + €0.25 (EEA consumer cards)                   | Non-EEA cards 3.25% + €0.25; iDEAL €0.32                                             | Not listed on pricing page (Europe-focused)                                                                                                      | Nov 2026 |
-| [Airwallex](https://www.airwallex.com/us/pricing)                             | 2.8% + 30¢ (US domestic cards)                      | International cards 4.3% + 30¢; FX 0.5% above interbank (major currencies)           | [69 countries and territories](https://help.airwallex.com/hc/en-gb/articles/4408591334937-Eligible-Countries-and-Territories)                    | Nov 2026 |
-| [Square](https://squareup.com/us/en/payments/our-fees)                        | Online 3.3% + 30¢ (Free plan); API 2.9% + 30¢       | 2.9% + 30¢ online on paid plans                                                      | [8 countries](https://squareup.com/help/us/en/article/4956-international-availability): US, Canada, UK, Ireland, France, Spain, Australia, Japan | Nov 2026 |
-| [Authorize.net](https://www.authorize.net/sign-up/pricing.html)               | 2.9% + 30¢ + $25/mo (All-in-One)                    | Gateway only (bring your own merchant account): 10¢ + $25/mo                         | Not listed on pricing page (US-focused)                                                                                                          | Nov 2026 |
-| [Revolut Business](https://www.revolut.com/business/accept-payments-pricing/) | 1% + £0.20 (UK consumer cards)                      | 2.8% + £0.20 cards from outside the UK and EEA; UK/EEA commercial cards 2.5% + £0.20 | Not listed on pricing page; needs a Revolut Business account                                                                                     | Nov 2026 |
+| Provider                                                                      | Fee                                                 | Extra fees                                                                           | Sell from                                                                                                                                        | Verified    |
+| ----------------------------------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| [Stripe](https://stripe.com/pricing)                                          | 2.9% + 30¢ (US cards)                               | +1.5% international cards; +1% currency conversion; Billing 0.7% of volume           | [51 countries](https://stripe.com/global); a few are invite only                                                                                 | Nov 2026    |
+| [PayPal](https://www.paypal.com/us/business/paypal-business-fees)             | PayPal Checkout 3.49% + 49¢; cards 2.99% + 49¢ (US) | +1.5% international; 3–4% currency conversion                                        | Depends on your country's PayPal account type                                                                                                    | Nov 2026    |
+| [Braintree](https://www.paypal.com/us/enterprise/paypal-braintree-fees)       | 2.89% + 29¢ (US cards and wallets)                  | +1% cards issued outside the US; +1% non-USD presentment                             | US rates shown; other countries need PayPal approval                                                                                             | Nov 2026    |
+| [Mollie](https://www.mollie.com/pricing)                                      | 1.8% + €0.25 (EEA consumer cards)                   | Non-EEA cards 3.25% + €0.25; iDEAL €0.32                                             | Not listed on pricing page (Europe-focused)                                                                                                      | Nov 2026    |
+| [Airwallex](https://www.airwallex.com/us/pricing)                             | 2.8% + 30¢ (US domestic cards)                      | International cards 4.3% + 30¢; FX 0.5% above interbank (major currencies)           | [69 countries and territories](https://help.airwallex.com/hc/en-gb/articles/4408591334937-Eligible-Countries-and-Territories)                    | Nov 2026    |
+| [Square](https://squareup.com/us/en/payments/our-fees)                        | Online 3.3% + 30¢ (Free plan); API 2.9% + 30¢       | 2.9% + 30¢ online on paid plans                                                      | [8 countries](https://squareup.com/help/us/en/article/4956-international-availability): US, Canada, UK, Ireland, France, Spain, Australia, Japan | Nov 2026    |
+| [Authorize.net](https://www.authorize.net/sign-up/pricing.html)               | 2.9% + 30¢ + $25/mo (All-in-One)                    | Gateway only (bring your own merchant account): 10¢ + $25/mo                         | Not listed on pricing page (US-focused)                                                                                                          | Nov 2026    |
+| [Revolut Business](https://www.revolut.com/business/accept-payments-pricing/) | 1% + £0.20 (UK consumer cards)                      | 2.8% + £0.20 cards from outside the UK and EEA; UK/EEA commercial cards 2.5% + £0.20 | Not listed on pricing page; needs a Revolut Business account                                                                                     | Unconfirmed |
+
+"Unconfirmed" means the provider's site blocks automated checks, so the row still needs a manual read.
 
 Stripe accepts individuals and [sole proprietors without a separate business entity](https://support.stripe.com/questions/selling-on-stripe-without-a-separate-business-entity), though requirements vary by country.
-
-## Regional Gateways
-
-Gateways built for one country or region. Use one when most of your customers pay with local methods (UPI, Pix, mobile money, bKash) or when Stripe and the MoRs above don't cover you. Most need a local business or bank account.
-
-| Provider                                                                                                 | Sellers based in                                   | Fee                                                           | Verified |
-| -------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------- | -------- |
-| [Razorpay](https://razorpay.com/pricing/)                                                                | India                                              | 2% (cards, netbanking, wallets) + GST                         | Nov 2026 |
-| [Cashfree](https://www.cashfree.com/payment-gateway-charges/)                                            | India                                              | 1.95% + taxes                                                 | Nov 2026 |
-| [PayU](https://payu.in/pricing/)                                                                         | India                                              | 2% + GST                                                      | Nov 2026 |
-| [Instamojo](https://www.instamojo.com/pricing/)                                                          | India                                              | 2% + ₹3 (gateway) + GST                                       | Nov 2026 |
-| [Safepay](https://safepay.helpscoutdocs.com/article/131-safepay-fee-breakdown)                           | Pakistan                                           | 2.9% + Rs30 (excl. tax)                                       | Nov 2026 |
-| [SSLCommerz](https://sslcommerz.com/pricing/)                                                            | Bangladesh                                         | 2.5% (cards, bKash, Nagad, Rocket)                            | Nov 2026 |
-| [aamarPay](https://aamarpay.com/pricing)                                                                 | Bangladesh                                         | 2.55% cards; 2% bKash, Nagad (Growth plan)                    | Nov 2026 |
-| [PayHere](https://www.payhere.lk/fees)                                                                   | Sri Lanka                                          | 3.30% (Lite plan)                                             | Nov 2026 |
-| [Khalti](https://khalti.com/payment-gateway/)                                                            | Nepal                                              | On request                                                    | Nov 2026 |
-| [Xendit](https://help.xendit.co/hc/en-us/articles/360039086452-What-are-the-pricing-for-Xendit-products) | Indonesia, Philippines and more                    | Indonesia: 2.9% + IDR 2,000; Philippines: 3.2% + ₱10          | Nov 2026 |
-| [Paystack](https://support.paystack.com/hc/en-us/articles/360009881920)                                  | Nigeria, Ghana, Kenya, South Africa, Côte d'Ivoire | Nigeria: 1.5% + ₦100, capped at ₦2,000                        | Nov 2026 |
-| [Flutterwave](https://flutterwave.com/us/pricing)                                                        | Nigeria, Kenya, Ghana, South Africa and more       | See pricing page                                              | Nov 2026 |
-| [Telr](https://telr.com/pricing/)                                                                        | UAE, Saudi Arabia, Jordan, Bahrain                 | UAE: 2.25–2.45% + AED 0.50–1 (by monthly volume)              | Nov 2026 |
-| [iyzico](https://www.iyzico.com/en/business/easy-pos)                                                    | Turkey                                             | Per merchant, shown in your merchant panel                    | Nov 2026 |
-| [Paymob](https://paymob.com)                                                                             | Egypt and more                                     | Varies by merchant; adjusts as volume grows                   | Nov 2026 |
-| [Mercado Pago](https://www.mercadopago.com.br/ferramentas-para-vender/check-out)                         | Brazil, Argentina, Mexico and more                 | Brazil: credit cards 3.98–4.98% (by payout timing); Pix 0.99% | Nov 2026 |
-
-## Payment Methods Buyers Can Use
-
-What your customers can pay with. Providers show each buyer only the methods that fit their country, currency and device, and many local methods work for one-time payments only.
-
-| Provider      | Cards | PayPal                      | Apple Pay and Google Pay | Local methods                                                                                                                                                               | Full list                                                                         |
-| ------------- | ----- | --------------------------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| Paddle        | Yes   | Yes                         | Yes                      | Alipay, WeChat Pay, iDEAL, Bancontact, BLIK, MB WAY, Pix, UPI, KakaoPay, Naver Pay, Payco, Samsung Pay, bank transfer                                                       | [Paddle docs](https://developer.paddle.com/concepts/payment-methods/overview)     |
-| Lemon Squeezy | Yes   | Yes                         | Yes                      | Alipay, WeChat Pay, Cash App Pay, bank debits (ACH); subscriptions: cards, wallets and PayPal only                                                                          | [Lemon Squeezy docs](https://docs.lemonsqueezy.com/help/checkout/payment-methods) |
-| Polar         | Yes   | No                          | Yes                      | Link, Amazon Pay, Cash App Pay, WeChat Pay, iDEAL, Bancontact, EPS, UPI, Kakao Pay, Naver Pay, Samsung Pay                                                                  | [Polar docs](https://polar.sh/docs/features/checkout/payment-methods)             |
-| Creem         | Yes   | Not listed                  | Yes                      | Alipay and iDEAL (one-time only), Alipay HK                                                                                                                                 | [Creem docs](https://docs.creem.io/merchant-of-record/finance/payment-methods)    |
-| Dodo Payments | Yes   | Paused for new transactions | Yes                      | UPI, RuPay, Pix, SEPA and ACH debit, iDEAL, Bancontact, EPS, BLIK, Multibanco, Klarna, Afterpay, Amazon Pay, Cash App Pay, WeChat Pay, GCash, Kakao Pay, Naver Pay and more | [Dodo docs](https://docs.dodopayments.com/features/payment-methods)               |
-
-## Disputes and Refunds
-
-What a chargeback or refund costs you. Fees are per dispute and are usually charged whether you win or lose.
-
-| Provider      | Dispute fee                                             | Refunds                                                    | Source                                                                                        |
-| ------------- | ------------------------------------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| Stripe (US)   | $15, plus $15 if you counter it (returned if you win)   | No refund fee; the original processing fee is not returned | [Stripe support](https://support.stripe.com/questions/june-2025-pricing-updates-for-disputes) |
-| Square        | None                                                    | Processing fee is not returned on a lost dispute           | [Square help](https://squareup.com/help/us/en/article/3882-payment-disputes-walkthrough)      |
-| Paddle        | No separate fee listed; chargeback handling is included | Not stated                                                 | Pricing page                                                                                  |
-| Polar         | $15, whatever the outcome                               | Not stated                                                 | Pricing page                                                                                  |
-| Kelviq        | $15, whatever the outcome                               | The transaction fee is not returned                        | [Kelviq fees](https://docs.kelviq.com/getstarted/fees)                                        |
-| Creem         | 25 USD/EUR                                              | No refund fee; the original processing fee is not returned | [Creem docs](https://docs.creem.io/merchant-of-record/finance/refunds-and-chargebacks)        |
-| Dodo Payments | $30                                                     | $1 per refund                                              | Pricing page                                                                                  |
-
-"Pricing page" means the provider's pricing link in the tables above.
 
 ## What You Can Sell
 
@@ -183,10 +135,11 @@ Getting rejected or closed for the wrong product type is the most common way fou
 | Creem         | Review for generative AI; no deepfakes or companion chatbots      | Review                                                | Ebooks yes; trading courses restricted         | No                                                     | No                                             | [Creem policy](https://docs.creem.io/merchant-of-record/account-reviews)                                   |
 | Kelviq        | Yes, "a core use case"                                            | Only sold with a software product                     | Yes                                            | No                                                     | No                                             | Review process page                                                                                        |
 | Dodo Payments | Yes; content generators need review                               | No custom work; productised services need review      | Ebooks need review; no wealth-building courses | No                                                     | No                                             | [Dodo policy](https://docs.dodopayments.com/miscellaneous/merchant-acceptance)                             |
+| Fungies       | Yes; no explicit output                                           | Digital only; nothing delivered in person             | Yes                                            | No                                                     | No                                             | [Fungies policy](https://fungies.io/high-risk-payments)                                                    |
 | Gumroad       | No: access to AI tools, chatbots or generation services is barred | No consulting firms                                   | Yes                                            | No                                                     | Some categories barred (food, jewelry, beauty) | [Gumroad policy](https://gumroad.com/prohibited)                                                           |
 | Stripe        | Yes; no AI-generated adult content                                | Yes                                                   | Yes; no "get rich quick" schemes               | Exchanges and wallets need approval; no mining or ICOs | Yes                                            | [Stripe policy](https://stripe.com/legal/restricted-businesses)                                            |
 
-All eight bar adult content. Every merchant of record here also bars gambling, marketplaces that sell other people's products, and donations where nothing is delivered. VPNs are reviewed case by case at Paddle and Polar and barred at Creem and Dodo Payments.
+All nine bar adult content. Every merchant of record here also bars gambling, marketplaces that sell other people's products, and donations where nothing is delivered. VPNs are reviewed case by case at Paddle and Polar and barred at Creem and Dodo Payments. Checked Nov 2026. A provider missing from this table does not publish this on a page we could read.
 
 ## Reviews and Payout Holds
 
@@ -201,8 +154,67 @@ How long approval takes, when the money reaches you, and when it can be held bac
 | Creem         | 1–2 working days; up to 3 at peak                                     | 1st and 15th                                                                    | None mentioned                                                             | Policy page                                                                              |
 | Kelviq        | Most within 24 hours                                                  | Rolling 7-day schedule                                                          | Restricted businesses may get a reserve                                    | Review process page                                                                      |
 | Dodo Payments | Not stated                                                            | Twice a month by default; weekly on request                                     | Can hold back a share of payments as a reserve                             | [Dodo payouts](https://docs.dodopayments.com/features/payouts/payout-structure)          |
+| Fungies       | Not stated                                                            | Daily by default; first payout 7–14 days after your first payment               | None mentioned                                                             | Pricing page                                                                             |
+| Freemius      | Not stated                                                            | Monthly, once your balance reaches $100                                         | Not stated                                                                 | Pricing page                                                                             |
 
-Pages named without a link are already linked in the tables above.
+Pages named without a link are already linked in the tables above. Checked Nov 2026. A provider missing from this table does not publish this on a page we could read.
+
+## Disputes and Refunds
+
+What a chargeback or refund costs you. Fees are per dispute and are usually charged whether you win or lose.
+
+| Provider      | Dispute fee                                             | Refunds                                                    | Source                                                                                        |
+| ------------- | ------------------------------------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| Stripe (US)   | $15, plus $15 if you counter it (returned if you win)   | No refund fee; the original processing fee is not returned | [Stripe support](https://support.stripe.com/questions/june-2025-pricing-updates-for-disputes) |
+| Square        | None                                                    | Processing fee is not returned on a lost dispute           | [Square help](https://squareup.com/help/us/en/article/3882-payment-disputes-walkthrough)      |
+| Paddle        | No separate fee listed; chargeback handling is included | Not stated                                                 | Pricing page                                                                                  |
+| Lemon Squeezy | $15                                                     | The platform fee is not returned                           | [Lemon Squeezy docs](https://docs.lemonsqueezy.com/help/payments/refunds-chargebacks)         |
+| Polar         | $15, whatever the outcome                               | Not stated                                                 | Pricing page                                                                                  |
+| Kelviq        | $15, whatever the outcome                               | The transaction fee is not returned                        | [Kelviq fees](https://docs.kelviq.com/getstarted/fees)                                        |
+| Creem         | 25 USD/EUR                                              | No refund fee; the original processing fee is not returned | [Creem docs](https://docs.creem.io/merchant-of-record/finance/refunds-and-chargebacks)        |
+| Dodo Payments | $30                                                     | $1 per refund                                              | Pricing page                                                                                  |
+| Fungies       | None; covered by the 5% + 50¢                           | Not stated                                                 | Pricing page                                                                                  |
+
+"Pricing page" means the provider's pricing link in the tables above. Checked Nov 2026. A provider missing from this table does not publish this on a page we could read.
+
+## Payment Methods Buyers Can Use
+
+What your customers can pay with. Providers show each buyer only the methods that fit their country, currency and device, and many local methods work for one-time payments only. "Pricing page" means the provider's pricing link in the tables above. Checked Nov 2026. A provider missing from this table does not publish this on a page we could read.
+
+| Provider      | Cards | PayPal                      | Apple Pay and Google Pay | Local methods                                                                                                                                                               | Full list                                                                         |
+| ------------- | ----- | --------------------------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| Paddle        | Yes   | Yes                         | Yes                      | Alipay, WeChat Pay, iDEAL, Bancontact, BLIK, MB WAY, Pix, UPI, KakaoPay, Naver Pay, Payco, Samsung Pay, bank transfer                                                       | [Paddle docs](https://developer.paddle.com/concepts/payment-methods/overview)     |
+| Lemon Squeezy | Yes   | Yes                         | Yes                      | Alipay, WeChat Pay, Cash App Pay, bank debits (ACH); subscriptions: cards, wallets and PayPal only                                                                          | [Lemon Squeezy docs](https://docs.lemonsqueezy.com/help/checkout/payment-methods) |
+| Polar         | Yes   | No                          | Yes                      | Link, Amazon Pay, Cash App Pay, WeChat Pay, iDEAL, Bancontact, EPS, UPI, Kakao Pay, Naver Pay, Samsung Pay                                                                  | [Polar docs](https://polar.sh/docs/features/checkout/payment-methods)             |
+| Creem         | Yes   | Not listed                  | Yes                      | Alipay and iDEAL (one-time only), Alipay HK                                                                                                                                 | [Creem docs](https://docs.creem.io/merchant-of-record/finance/payment-methods)    |
+| Dodo Payments | Yes   | Paused for new transactions | Yes                      | UPI, RuPay, Pix, SEPA and ACH debit, iDEAL, Bancontact, EPS, BLIK, Multibanco, Klarna, Afterpay, Amazon Pay, Cash App Pay, WeChat Pay, GCash, Kakao Pay, Naver Pay and more | [Dodo docs](https://docs.dodopayments.com/features/payment-methods)               |
+| Kelviq        | Yes   | Not listed                  | Wallets (not itemised)   | UPI and SEPA are named; others chosen by buyer region                                                                                                                       | [Kelviq checkout](https://kelviq.com/checkout-suite/)                             |
+| Fungies       | Yes   | Yes                         | Yes                      | SEPA debit, iDEAL, Multibanco, Naver Pay, Kakao Pay, Samsung Pay, Payco                                                                                                     | [Fungies methods](https://fungies.io/payment-methods)                             |
+| Freemius      | Yes   | Yes                         | Not listed               | None listed                                                                                                                                                                 | Pricing page                                                                      |
+| Stripe        | Yes   | Yes, in Europe              | Yes                      | Link, Alipay, WeChat Pay, iDEAL, Bancontact, BLIK, EPS, P24, SEPA and ACH debit, Pix, UPI, Klarna, Affirm, Cash App Pay, Amazon Pay and more                                | [Stripe docs](https://docs.stripe.com/payments/payment-methods/overview)          |
+
+## Regional Gateways
+
+Gateways built for one country or region. Use one when most of your customers pay with local methods (UPI, Pix, mobile money, bKash) or when Stripe and the MoRs above don't cover you. Most need a local business or bank account.
+
+| Provider                                                                                                 | Sellers based in                                   | Fee                                                                           | Verified |
+| -------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | ----------------------------------------------------------------------------- | -------- |
+| [Razorpay](https://razorpay.com/pricing/)                                                                | India                                              | 2% (cards, netbanking, wallets) + GST                                         | Nov 2026 |
+| [Cashfree](https://www.cashfree.com/payment-gateway-charges/)                                            | India                                              | 1.95% + taxes                                                                 | Nov 2026 |
+| [PayU](https://payu.in/pricing/)                                                                         | India                                              | 2% + GST                                                                      | Nov 2026 |
+| [Instamojo](https://www.instamojo.com/pricing/)                                                          | India                                              | 2% + ₹3 (gateway) + GST                                                       | Nov 2026 |
+| [Safepay](https://safepay.helpscoutdocs.com/article/131-safepay-fee-breakdown)                           | Pakistan                                           | 2.9% + Rs30 (excl. tax)                                                       | Nov 2026 |
+| [SSLCommerz](https://sslcommerz.com/pricing/)                                                            | Bangladesh                                         | 2.5% (cards, bKash, Nagad, Rocket)                                            | Nov 2026 |
+| [aamarPay](https://aamarpay.com/pricing)                                                                 | Bangladesh                                         | 2.55% cards; 2% bKash, Nagad (Growth plan)                                    | Nov 2026 |
+| [PayHere](https://www.payhere.lk/fees)                                                                   | Sri Lanka                                          | 3.30% (Lite plan)                                                             | Nov 2026 |
+| [Khalti](https://khalti.com/payment-gateway/)                                                            | Nepal                                              | On request                                                                    | Nov 2026 |
+| [Xendit](https://help.xendit.co/hc/en-us/articles/360039086452-What-are-the-pricing-for-Xendit-products) | Indonesia, Philippines and more                    | Indonesia: 2.9% + IDR 2,000; Philippines: 3.2% + ₱10                          | Nov 2026 |
+| [Paystack](https://support.paystack.com/hc/en-us/articles/360009881920)                                  | Nigeria, Ghana, Kenya, South Africa, Côte d'Ivoire | Nigeria: 1.5% + ₦100, capped at ₦2,000                                        | Nov 2026 |
+| [Flutterwave](https://flutterwave.com/us/pricing)                                                        | Nigeria, Kenya, Ghana, South Africa and more       | See pricing page                                                              | Nov 2026 |
+| [Telr](https://telr.com/pricing/)                                                                        | UAE, Saudi Arabia, Jordan, Bahrain                 | UAE: 2.25–2.45% + AED 0.50–1 (by monthly volume)                              | Nov 2026 |
+| [iyzico](https://www.iyzico.com/en/business/easy-pos)                                                    | Turkey                                             | Per merchant, shown in your merchant panel                                    | Nov 2026 |
+| [Paymob](https://paymob.com)                                                                             | Egypt and more                                     | Varies by merchant; adjusts as volume grows                                   | Nov 2026 |
+| [Mercado Pago](https://www.mercadopago.com.br/ferramentas-para-vender/check-out)                         | Brazil, Argentina, Mexico and more                 | Brazil: credit cards up to 4.98% (less if you wait for the payout); Pix 0.99% | Nov 2026 |
 
 ## Receive Your Payouts
 

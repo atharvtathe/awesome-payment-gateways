@@ -21,6 +21,9 @@ Fee changes, country changes and new providers, newest first. Each entry was che
 - What You Can Sell: AI products, services, courses, crypto and physical goods under each provider's policy, for seven merchant of record platforms and Stripe.
 - Reviews and Payout Holds: account review time, payout timing, holds and reserves for seven providers.
 - Paddle's payouts (wire or Payoneer, $100 minimum, monthly) and Dodo Payments' payout minimum and schedule.
+- Comparison tables now also cover Fungies, Freemius, Kelviq and Stripe where they publish the data, and Lemon Squeezy's $15 dispute fee.
+- Corrected Mercado Pago's credit card fee (up to 4.98%) and Fungies' payouts (no minimum, no payout fee).
+- What You Can Sell and Reviews and Payout Holds moved up, next to the provider tables.
 - Lemon Squeezy's surcharges (+1.5% international, +1.5% PayPal, +0.5% subscriptions) and payout fees.
 
 - Kelviq, a merchant of record for SaaS and AI: 3.5% + 40¢ (2.9% + 40¢ until $5,000 in sales), sellers in 120 countries, no payout fee. Added to the country table and guides (since removed).
