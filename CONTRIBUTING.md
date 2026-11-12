@@ -1,10 +1,9 @@
 # Contributing
 
-Thanks for helping founders get paid. Three kinds of contributions are welcome:
+Thanks for helping founders get paid. Two kinds of contributions are welcome:
 
-1. **Add a provider**: an MoR, gateway or local gateway that indie founders can sign up for.
-2. **Update an entry** whose fees or supported countries have changed.
-3. **Fix the country table**: a "Yes" or "No" that is wrong for your country. Founders who actually live there are the best source for this.
+1. **Add a provider**: an MoR, payment gateway, regional gateway, payout account or company formation service that indie founders can sign up for.
+2. **Update an entry** whose fees or supported seller countries have changed.
 
 Don't want to open a pull request? [Open an issue](../../issues/new/choose) and fill in the form instead.
 
@@ -43,18 +42,7 @@ Style:
 - Use the currency the provider uses (`$`, `€`, `₹`, `₦`).
 - Don't rank providers or add opinions. Facts only.
 - Update the count next to the section in **Contents**.
-
-## Country table
-
-- Use "Yes" only when the provider's own country list includes the country.
-- Add a short note under the table if there's a catch (invite only, partner restrictions, PayPal only).
-- Link the source in your pull request.
-
-## Country guides
-
-Guides live in `countries/`, one file per country. Copy an existing guide and keep the same sections: quick answer, Stripe, MoRs, local gateways, things to know. Only include facts from providers' own pages, and link each one.
-
-Live in a country that doesn't have a guide yet? You're the best person to write it.
+- Gateways that only serve one country or region go in **Regional Gateways**, as one row each.
 
 ## Pull request checklist
 
@@ -62,8 +50,7 @@ Live in a country that doesn't have a guide yet? You're the best person to write
 - [ ] Link goes to the provider's pricing, docs or help page.
 - [ ] Every number comes from the provider's own pages.
 - [ ] **Verified** set to the month you checked.
-- [ ] Country table and country guides updated if affected.
-- [ ] CHANGELOG.md updated for fee or country changes.
+- [ ] CHANGELOG.md updated for fee or seller-country changes.
 - [ ] Section count in Contents updated (new or removed providers only).
 
 By contributing, you agree to release your contribution under the [CC0 license](LICENSE) and to follow the [Code of Conduct](code-of-conduct.md).

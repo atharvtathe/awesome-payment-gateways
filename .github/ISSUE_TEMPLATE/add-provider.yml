@@ -26,8 +26,9 @@ body:
       label: Type
       options:
         - Merchant of Record (handles sales tax / VAT)
-        - Global payment gateway
-        - Local payment gateway
+        - Payment gateway
+        - Regional gateway (one country or region)
+        - Payout account (USD/EUR/GBP details)
         - US company formation
         - Not sure
     validations:

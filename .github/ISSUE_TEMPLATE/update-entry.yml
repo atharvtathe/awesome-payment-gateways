@@ -1,5 +1,5 @@
 name: Report outdated info
-description: A fee, country or link in the list is wrong or out of date
+description: A fee, seller country or link in the list is wrong or out of date
 title: "Update: <provider name>"
 labels: ["outdated"]
 body:
@@ -19,7 +19,7 @@ body:
   - type: input
     id: country
     attributes:
-      label: Your country (if this is about country support)
+      label: Seller country affected (if this is about where sellers can be based)
   - type: input
     id: source
     attributes:

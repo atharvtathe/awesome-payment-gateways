@@ -24,11 +24,9 @@ jobs:
             --body "Time for the monthly check. For each provider, open its pricing and country pages and compare them with the list.
 
           - [ ] Merchant of Record Platforms: fees, sell-from countries, payouts
-          - [ ] Country table: Stripe, Paddle, Lemon Squeezy, Polar, Creem, Dodo
-          - [ ] Global Payment Gateways
-          - [ ] Local Payment Gateways
+          - [ ] Payment Gateways and Regional Gateways
+          - [ ] Payment Methods Buyers Can Use, and Disputes and Refunds
           - [ ] Receive Your Payouts and US company services
-          - [ ] Country guides in \`countries/\`
           - [ ] Update **Verified** on every row you checked
           - [ ] Add anything that changed to CHANGELOG.md
           - [ ] Update **Last full review** at the top of the README"
